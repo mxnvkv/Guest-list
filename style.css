@@ -1,0 +1,210 @@
+body {
+    letter-spacing: 4.44px;
+
+    background-color: #08B2E3;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+:focus {
+    outline:none;  /* Removing button's outside lightning in Chrome */
+}
+
+.title {
+    width: 450px;
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+
+    text-align: center;
+
+    color: #484D6D;
+    border-radius: 25px;
+    background-color: #EFE9F4;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.submit-form {
+    width: 450px;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 25px;
+    background-color: #EFE9F4;
+}
+
+.text-area {
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 15px;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+.submit-button {
+    float: right;
+
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    transition: 0.1s ease-out;
+
+    color: #484D6D;
+    border: none; /* <-------- rewriting standard style, it is necessary to be able to change the size */
+    border-radius: 15px;
+    background-color: #53DD6C;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+}
+
+.submit-button:active {
+    transform: scale(.98);
+}
+
+.guestsList {
+    width: 1090px;
+    min-height: 190px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+    border-radius: 25px;
+    background-color: #EFE9F4;
+}
+
+.guestDiv {
+    display: inline-block;
+
+    width: 260px;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px;
+
+    border: 1px solid rgb(232,232,232);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.guestName {
+    display:  block;
+
+    font-size: 25px;
+}
+
+.appeared {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    color: #C3C4D0;
+
+    font-size: 11px;
+}
+
+.buttons {
+    float: right;
+
+    margin-top: 30px;
+}
+
+.buttons button {
+    width: 82px;
+    height: 50px;
+
+    transition: 0.1s ease-out;
+    text-align: center;
+
+    color: #484D6D;
+    border: none;
+    border-radius: 18px;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.buttons button:active {
+    transition: background-color 2s;
+    transform: scale(.98);
+}
+
+.edit {
+    margin-right: 10px;
+
+    background-color: rgb(91, 192, 235); /* #5BC0EB */
+}
+
+.remove {
+    background-color: #FF4B3E;
+}
+
+.save {
+    margin-right: 10px;
+
+    background-color: rgb(235, 216, 90); /* #5BC0EB */
+}
+
+.guestDiv input[type="text"] {
+    width: 220px;
+    height: 30px;
+
+    letter-spacing: 5px;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+.responded-div {
+    display: inline-block;
+
+    margin-top: 66px;
+    margin-left: 115px;
+    padding: 3px;
+
+    color: white;
+    border-radius: 5px;
+
+    font-size: 13px;
+}
+
+/* 2 classes, test before solving a problem with classes */
+
+.responded {
+    display: inline-block;
+
+    width: 260px;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px;
+
+    border: 1px solid rgb(73, 197, 230);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.responded input[type="text"] {
+    width: 220px;
+    height: 30px;
+
+    letter-spacing: 5px;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
