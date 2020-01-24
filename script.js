@@ -1,10 +1,11 @@
-const guestsList = document.querySelector('.guestsList');
-const respondedDiv = document.querySelector('.responded-div');
-const textArea = document.querySelector('.text-area');
-const submitButton = document.querySelector('.submit-button');
-const removeBT = document.querySelector('.remove');
-const buttons = document.getElementsByTagName('button');
-const submitForm = document.querySelector('.submit-form');
+const guestsList    = document.querySelector('.guestsList');
+const respondedDiv  = document.querySelector('.responded-div');
+const textArea      = document.querySelector('.text-area');
+const submitButton  = document.querySelector('.submit-button');
+const removeBT      = document.querySelector('.remove');
+const buttons       = document.getElementsByTagName('button');
+const submitForm    = document.querySelector('.submit-form');
+
 
 function createElement(elementName, className) {
 
@@ -25,7 +26,8 @@ submitButton.addEventListener('click', () => {
 
         const guestName = textArea.value;
 
-        const guestDiv = createElement('div', 'guestDiv');
+        const guestDiv = createElement('form', 'guestDiv');
+        guestDiv.setAttribute("onsubmit", "return false;");
 
         // creating new element
 
